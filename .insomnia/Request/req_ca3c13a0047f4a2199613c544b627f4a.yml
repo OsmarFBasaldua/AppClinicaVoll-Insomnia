@@ -1,0 +1,41 @@
+_id: req_ca3c13a0047f4a2199613c544b627f4a
+type: Request
+parentId: wrk_062918574652472fb11adca7f0e0b39e
+modified: 1695854700562
+created: 1695710064363
+url: http://localhost:8080/medicos
+name: Registrar Médicos
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nombre": "Juan Pedro",
+    	"email": "juan.pe@voll.med",
+    	"telefono": "3333912635",
+    	"documento": "123212",
+    	"especialidad": "ORTOPEDIA",
+    	"direccion": {
+    		"calle": "calle 3",
+    		"distrito": "distrito 2",
+    		"ciudad": "Peru",
+    		"numero": "5",
+    		"complemento": "scasc"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695710064363
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
