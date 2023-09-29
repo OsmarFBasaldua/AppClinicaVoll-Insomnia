@@ -1,0 +1,23 @@
+_id: req_536578f7d9db4ad4b50d859e5151dcb2
+type: Request
+parentId: wrk_062918574652472fb11adca7f0e0b39e
+modified: 1696015234563
+created: 1696013239029
+url: http://localhost:8080/medicos/13
+name: Delete Medico
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696013239030
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_ae3bb97c5091493e815d4b6c6362e7dc
+type: Request
+parentId: wrk_062918574652472fb11adca7f0e0b39e
+modified: 1695914434582
+created: 1695911252187
+url: http://localhost:8080/medicos
+name: Actualizar Medico
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 2,
+    	"nombre": "Luis Lopez"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695911252187
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
