@@ -1,9 +1,9 @@
 _id: req_536578f7d9db4ad4b50d859e5151dcb2
 type: Request
 parentId: wrk_062918574652472fb11adca7f0e0b39e
-modified: 1696015234563
+modified: 1696020911685
 created: 1696013239029
-url: http://localhost:8080/medicos/13
+url: http://localhost:8080/medicos/1
 name: Delete Medico
 description: ""
 method: DELETE

@@ -1,7 +1,7 @@
 _id: req_ca3c13a0047f4a2199613c544b627f4a
 type: Request
 parentId: wrk_062918574652472fb11adca7f0e0b39e
-modified: 1696014227023
+modified: 1696060375753
 created: 1695710064363
 url: http://localhost:8080/medicos
 name: Registrar Médicos
@@ -11,17 +11,15 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nombre": "Juan Pedro",
-    	"email": "juan.pe@voll.med",
-    	"telefono": "3333912635",
-    	"documento": "123212",
+    	"documento": "764908",
     	"especialidad": "ORTOPEDIA",
     	"direccion": {
-    		"calle": "calle 3",
-    		"distrito": "distrito 2",
-    		"ciudad": "Peru",
-    		"numero": "5",
-    		"complemento": "scasc"
+    		"calle": "calle",
+    		"distrito": "distrito 1",
+    		"ciudad": "México",
+    		"numero": "1",
+    		"complemento": "CEDULA10",
+    		"activo": "True"
     	}
     }
 parameters: []
