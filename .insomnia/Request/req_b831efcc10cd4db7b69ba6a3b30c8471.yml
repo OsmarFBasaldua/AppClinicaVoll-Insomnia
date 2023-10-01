@@ -1,9 +1,9 @@
 _id: req_b831efcc10cd4db7b69ba6a3b30c8471
 type: Request
 parentId: wrk_062918574652472fb11adca7f0e0b39e
-modified: 1696058463396
+modified: 1696158059090
 created: 1696057794461
-url: http://localhost:8080/medicos/171
+url: http://localhost:8080/medicos/17
 name: Obtener datos medicos
 description: ""
 method: GET
@@ -12,8 +12,10 @@ parameters: []
 headers:
   - name: User-Agent
     value: insomnia/2023.5.8
-authentication: {}
-metaSortKey: -1696057794461
+authentication:
+  type: bearer
+  token: ""
+metaSortKey: -1696035516845.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,31 @@
+_id: req_85ff4f50c5704fdaacedc824fcd126a5
+type: Request
+parentId: wrk_062918574652472fb11adca7f0e0b39e
+modified: 1696147733181
+created: 1696135212591
+url: http://localhost:8080/login
+name: Login de usuarios
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login": "diego.rojas",
+    	"clave": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696035516745.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

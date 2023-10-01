@@ -1,7 +1,7 @@
 _id: req_7e1efd99d8664ff89eab8e369937fbd9
 type: Request
 parentId: wrk_062918574652472fb11adca7f0e0b39e
-modified: 1696020908696
+modified: 1696157974312
 created: 1695854770274
 url: http://localhost:8080/medicos
 name: Listados medicos
@@ -12,7 +12,9 @@ parameters: []
 headers:
   - name: User-Agent
     value: insomnia/2023.5.8
-authentication: {}
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkaWVnby5yb2phcyIsImlzcyI6IlZvbGwgbWVkIiwiaWQiOjEsImV4cCI6MTY5NjE2MTU1OH0.fhjQ5v4yFMv_9BJpAa8k5x6j-wq8nrhw-TAsBh4NCWE
 metaSortKey: -1695854770274
 isPrivate: false
 settingStoreCookies: true
